@@ -1,0 +1,2 @@
+qc_opendrive @ git+https://github.com/asam-ev/qc-opendrive@develop
+lxml==5.2.2
