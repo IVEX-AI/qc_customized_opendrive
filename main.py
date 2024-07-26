@@ -108,6 +108,10 @@ def main():
         )
     )
 
+    logging.info(
+        f"Issues found - {result.get_checker_issue_count(checker_bundle_name=BUNDLE_NAME, checker_id=ELEMENTS_CHECKER_ID)}"
+    )
+
     logging.info("Done")
 
 
